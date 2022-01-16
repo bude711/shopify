@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <h1>
-        Brandi's Frontend Space App 
+      👽 Brandi's Frontend Space App 👽
       </h1>
     </header>
   );
