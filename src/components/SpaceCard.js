@@ -6,6 +6,7 @@ function SpaceCard({
   const [favorite, setFavorite] = useState(false);
 
 
+
   return (
     <li className="card">
       <div className="image">
@@ -18,7 +19,8 @@ function SpaceCard({
 
         {favorite ? (
           <button
-            onClick={() => setFavorite(false)}
+            // onClick={() => setFavorite(false)}
+            onClick={() => { setFavorite(false); ;}}
             className="emoji-button favorite active"
           >
             ❤️ Liked
